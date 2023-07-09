@@ -1,0 +1,33 @@
+/* Import Google font - Poppins */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+@font-face {
+  font-family: ffStyle;
+  src:url("../public/fonts/FIGHTT__.ttf");
+}
+@font-face {
+  font-family: batmanFont;
+  src:url("../public/fonts/batmfa__.ttf");
+}
+.nav-link.active {
+  @apply text-red-500;
+  
+}
+@layer utilities {
+  .active-link {
+    /* Your active link styles */
+    color: #001aff;
+    font-weight: bold;
+    /* Add any other styles you want for the active link */
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

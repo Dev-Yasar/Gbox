@@ -1,0 +1,7 @@
+.heroBG{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(192,203,255,1) 100%);
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}

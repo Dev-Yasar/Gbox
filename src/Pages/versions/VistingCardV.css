@@ -1,0 +1,45 @@
+.versionHeroContainer{
+    width: 100%;
+    height: 300px;
+    background: radial-gradient(#dac6ff 15%, transparent 16%), linear-gradient(45deg, transparent 49%, #dac6ff 49% 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #dac6ff 49% 51%, transparent 51%);
+    background-size: 2em 2em;
+    background-color: #ffffff;
+    opacity: 1
+    
+    
+}
+.versionCollection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ 
+
+
+}
+.CollectionName{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.CollectionConatiner{
+    width:80%;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}

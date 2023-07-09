@@ -1,0 +1,180 @@
+.V1FrontCard{
+    position: relative;
+    width: 549px;
+    height: 324px;
+     background-color: rgb(0, 0, 0);
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.V1BackCard{
+    position: relative;
+    width: 549px;
+    height: 324px;
+    background-color: rgb(2, 1, 1);
+    transform: scale(1);
+    overflow: hidden;
+}
+.GraphicsHolder{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+/* own design */
+
+.card_Ellipce{
+position: absolute; 
+width: 100%;
+height: 100%;
+flex-shrink: 1;
+border-radius: 60%;
+background: #FFF;
+left: -300px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.cardLogo{
+    width: 150px;
+    margin-right: 60px;
+}
+.card_titileHolder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+.card_title{
+    margin-right: 50px;
+    color: #05F;
+    text-transform: capitalize;
+}
+/*  */
+
+.card_Ellipce2{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    flex-shrink: 1;
+    border-radius: 60%;
+    background: #FFF;
+    right: -400px;
+    top: -150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    }
+    .cardLogo2{
+        width: 80px;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    .card_titileHolder2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 50px;
+
+    }
+    .card_title2{
+        margin-right: 100px;
+        color: #05F;
+        text-transform: capitalize;
+
+    }
+   .cardDetailData1{
+    margin-left: 50px;
+   }
+   .data{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFF;
+    align-items: first baseline;
+
+
+   }
+   .card_dataItem{
+    margin-left: 30px;
+   }
+   .FormEditor{
+    border-radius: 10px;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    z-index: 10;
+    top: 100px;
+    user-select: none;
+  padding: 30px;
+  overflow-y: scroll;
+
+   }
+   .FormEditor::-webkit-scrollbar {
+    width:0px; /* width of the scroll bar */
+  }
+
+   .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: #FFF;
+  }
+  
+  .btn {
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: #FFF;
+  }
+  .MenuCancel{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MenuDrag{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right:0px;
+    top: 50px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

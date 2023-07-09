@@ -1,0 +1,126 @@
+
+
+.GraphicsHolder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+
+.FormEditorps2{
+    border-radius: 10px;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    z-index: 10;
+    top: 100px;
+    user-select: none;
+  padding: 30px;
+  overflow-y: scroll;
+
+   }
+   .FormEditorps2::-webkit-scrollbar {
+    width:0px; /* width of the scroll bar */
+  }
+
+   .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: #FFF;
+  }
+  
+  .btn {
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: #FFF;
+  }
+  .MenuCancel{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MenuDrag{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right:0px;
+    top: 50px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.holderposterv2{
+  width: 400px;
+  height: 500px;
+  margin-top: 80px;
+}
+.PosterbgV2{
+  position: relative;
+    width: 350px;
+    height: 500px;
+    background-color: antiquewhite;
+    background-image: url(../../../Assets/images/fightClub.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.V2posterTitile{
+  font-family: ffStyle;
+  color: #ff0077;
+  position: absolute;
+  z-index: 10;
+  position: absolute;
+
+}
+.psTextHolder{
+  width:350px;
+  height: 400px;
+  font-size: 60px;
+  bottom: 0px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+.posterOverley1{
+  width: 350px;
+  height: 500px;
+  background-image: linear-gradient(160deg, #41414109 0%, #000000d5 74%);
+  position: absolute;
+  
+}

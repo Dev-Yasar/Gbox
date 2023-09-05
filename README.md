@@ -3,7 +3,7 @@
 
 To customize the pre-build templates like posters, visiting cards, and certificates
 
-## [Live Demo](https://gbox-reactjs.netlify.app/templates/Collections/posterV2)
+## [Live Demo](gbox-reactjs.netlify.app)
 
 ## Installation
 
